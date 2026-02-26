@@ -33,7 +33,7 @@ export default function Home() {
       "Git and GitHub, DevOps, Ubuntu, Redux.js, Inertia.js, ERP & SaaS, Web Application Development, Custom Website Development, Cloud deployment, Databases management, DevOps practices, Problem solving, Agile methodologies, Cloud architecture, Full stack development, Software development, Linux",
     experience1: {
       role: "Software Engineer",
-      period: "07/2023 to Current",
+      period: "08/2025 to Current",
       company: "Softech UK",
       location: "Lahore, Pakistan",
       details:
@@ -41,7 +41,7 @@ export default function Home() {
     },
     experience2: {
       role: "Software Engineer",
-      period: "12/2022 to 06/2023",
+      period: "12/2022 to 07/2025",
       company: "MetaX Payments Ltd",
       location: "Lahore, Pakistan",
       details:
