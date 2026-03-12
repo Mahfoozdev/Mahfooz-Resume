@@ -24,7 +24,7 @@ export default function Home() {
     email: "mahfoozdoit@gmail.com",
     website: "https://mahfooz-dwv2.vercel.app/",
     github1: "https://github.com/Mahfoozdev",
-    github2: "https://github.com/MahfoozMinit",
+    github2: "https://github.com/MahfoozMindit",
     summary:
       "I am a results-driven Full-Stack Software Engineer who turns complex ideas into practical, high-impact software solutions. I specialize in developing scalable web applications using Node.js, JavaScript, and TypeScript on the backend, along with Python frameworks such as Django and Flask, and PHP with Laravel for enterprise-grade systems.\n\nOn the frontend, I build responsive and high-performance user interfaces using React.js, Vue.js, and Next.js, ensuring seamless user experiences and optimized rendering strategies. I design and implement RESTful APIs, handle state management efficiently, and follow modern component-driven architecture principles.\n\nMy expertise includes working with relational and NoSQL databases such as PostgreSQL, MySQL, and MongoDB, focusing on optimized queries, efficient indexing, and scalable data modeling. I also manage cloud deployments and infrastructure using AWS, Docker, and VPS environments, applying DevOps best practices to ensure security, maintainability, and reliable CI/CD workflows.",
     skills1:
@@ -41,11 +41,19 @@ export default function Home() {
     },
     experience2: {
       role: "Software Engineer",
-      period: "12/2022 to 07/2025",
+      period: "08/2023 to 07/2025",
       company: "MetaX Payments Ltd",
       location: "Lahore, Pakistan",
       details:
-        "Led the end-to-end development of modern web applications, delivering seamless and responsive user experiences using React.js, Vue.js, and Tailwind CSS.\nDesigned and implemented robust server-side systems with Node.js and Laravel, supporting the successful delivery of Enterprise, SaaS products and Exchange Platforms.\nParticipated in regular meetings with stakeholders to discuss project progress, changes, challenges.\nAnalyzed user requirements to develop software solutions and created technical specifications.\nConducted code reviews to ensure adherence to coding standards and best practices.\nUtilized variety of engineering languages to develop web applications.",
+        "Led the end-to-end development of modern web applications, delivering seamless and responsive user experiences using React.js, Vue.js, and Tailwind CSS.\n Designed and implemented robust server-side systems with Node.js and Laravel, supporting the successful delivery of Enterprise, SaaS products and Exchange Platforms. Designed and optimized complex schemas in MongoDB for scalable web applications.\nImplemented relational database solutions in MySQL using Laravel's Eloquent ORM, ensuring data integrity, normalization, and efficient query management.\nParticipated in regular meetings with stakeholders to discuss project progress, changes, challenges.\nAnalyzed user requirements to develop software solutions and created technical specifications.\nConducted code reviews to ensure adherence to coding standards and best practices.\nUtilized variety of engineering languages to develop web applications.",
+    },
+    experience3: {
+      role: "Junior Software Developer",
+      period: "10/2022 to 07/2023",
+      company: "Natrix Coders",
+      location: "Lahore, Pakistan",
+      details:
+        "Worked on building web applications using React.js, Vue.js, and Tailwind CSS to create responsive user interfaces.\nHelped implement backend features using Node.js for small projects and internal tools.\nJoined team meetings to discuss project updates, requirements, and any issues faced.\nAssisted in writing simple technical specifications and following instructions from senior developers.\nReviewed code with teammates and learned coding best practices.\nUsed different programming languages and tools to complete assigned tasks in web development projects.",
     },
     education: {
       degree: "Bachelor of Science: Computer Science",
@@ -55,7 +63,7 @@ export default function Home() {
     },
     personalInfoTitle: "Full Stack Software Engineer",
     languages:
-      "Urdu, English (Professional Working Proficiency), Urdu (Professional Working Proficiency)",
+      " English (Professional Working Proficiency), Urdu (Professional Working Proficiency)",
   });
 
   const handleInputChange = (e: any) => {
@@ -408,6 +416,19 @@ export default function Home() {
                 </div>
                 <ul className="list-disc pl-5 space-y-0.5 text-justify">
                   {renderBulletList(formData.experience2.details)}
+                </ul>
+              </div>
+              <div className="mb-3">
+                <div className="flex justify-between font-bold">
+                  <span>{formData.experience3.role}</span>
+                  <span>{formData.experience3.period}</span>
+                </div>
+                <div className="flex justify-between font-bold mb-1">
+                  <span>{formData.experience3.company}</span>
+                  <span>{formData.experience3.location}</span>
+                </div>
+                <ul className="list-disc pl-5 space-y-0.5 text-justify">
+                  {renderBulletList(formData.experience3.details)}
                 </ul>
               </div>
             </div>

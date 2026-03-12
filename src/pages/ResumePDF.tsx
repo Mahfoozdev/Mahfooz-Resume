@@ -489,6 +489,48 @@ const ResumePDF: React.FC<ResumePDFProps> = ({
               {renderBulletPoints(formData.experience2.details)}
             </View>
           </View>
+          {/* Experience 3 */}
+          <View style={styles.experienceItem}>
+            <View style={styles.experienceHeader}>
+              <Text
+                style={[
+                  styles.experienceTitle,
+                  { fontFamily: getFontFamily() },
+                ]}
+              >
+                {formData.experience3.role}
+              </Text>
+              <Text
+                style={[
+                  styles.experiencePeriod,
+                  { fontFamily: getFontFamily() },
+                ]}
+              >
+                {formData.experience3.period}
+              </Text>
+            </View>
+            <View style={styles.experienceSubheader}>
+              <Text
+                style={[
+                  styles.experienceCompany,
+                  { fontFamily: getFontFamily() },
+                ]}
+              >
+                {formData.experience3.company}
+              </Text>
+              <Text
+                style={[
+                  styles.experienceLocation,
+                  { fontFamily: getFontFamily() },
+                ]}
+              >
+                {formData.experience3.location}
+              </Text>
+            </View>
+            <View style={styles.experienceDetails}>
+              {renderBulletPoints(formData.experience3.details)}
+            </View>
+          </View>
         </View>
 
         {/* Education */}
