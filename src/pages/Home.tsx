@@ -20,24 +20,24 @@ export default function Home() {
   const [formData, setFormData] = useState({
     fullName: "MUHAMMAD MAHFOOZ UL HAQ",
     location: "Lahore Pakistan",
-    phone: "03207802041",
+    phone: "03207803941",
     email: "mahfoozdoit@gmail.com",
     website: "https://mahfooz-dwv2.vercel.app/",
     github1: "https://github.com/Mahfoozdev",
     github2: "https://github.com/MahfoozMindit",
     summary:
-      "I am a results-driven Full-Stack Software Engineer who turns complex ideas into practical, high-impact software solutions. I specialize in developing scalable web applications using Node.js, JavaScript, and TypeScript on the backend, along with Python frameworks such as Django and Flask, and PHP with Laravel for enterprise-grade systems.\n\nOn the frontend, I build responsive and high-performance user interfaces using React.js, Vue.js, and Next.js, ensuring seamless user experiences and optimized rendering strategies. I design and implement RESTful APIs, handle state management efficiently, and follow modern component-driven architecture principles.\n\nMy expertise includes working with relational and NoSQL databases such as PostgreSQL, MySQL, and MongoDB, focusing on optimized queries, efficient indexing, and scalable data modeling. I also manage cloud deployments and infrastructure using AWS, Docker, and VPS environments, applying DevOps best practices to ensure security, maintainability, and reliable CI/CD workflows.",
+      "I am a results-driven Full Stack Software Engineer with 3+ years of production experience building scalable SaaS and enterprise-grade web applications using TypeScript, React.js, Next.js, Node.js, Express.js, and Laravel. Strong expertise in backend architecture, RESTful API development, authentication systems, database schema design, cloud deployment, and production-grade engineering practices.\n\nExperienced in developing high-performance frontend applications with React.js and Next.js while implementing secure, scalable backend systems using Node.js, Express.js, and Laravel. Proficient in PostgreSQL, MongoDB, Prisma ORM, Mongoose, and TypeORM with deep understanding of data integrity, query optimization, and scalable database design.\n\nSkilled in AWS, DigitalOcean, Linux server management, Docker, CI/CD pipelines, and production deployment workflows. Hands-on experience integrating third-party APIs including Stripe and OpenAI, implementing RBAC authorization systems, WebSockets, and real-time application features.\n\nStrong engineering mindset focused on edge-case handling, production stability, clean architecture, strict type safety, performance optimization, and end-to-end feature ownership. Adept at collaborating with cross-functional teams, conducting code reviews, mentoring junior developers, and delivering maintainable production-ready software solutions.\n\nExperienced in designing layered backend architectures using Controllers, Services, and Data Access patterns with strong focus on strict type safety, RBAC authorization systems, edge-case handling, and production stability.",
     skills1:
-      "Nodejs, Laravel, PHP, Python, React.js, Vue.js, Next.js, PostgreSQL, MongoDB, MySQL, SQL, Relational & Non Relational Databases, JavaScript, TypeScript, Docker, AWS, VPS, Express.js",
+      "Nodejs, Laravel, PHP, Python, React.js, Vue.js, Next.js, PostgreSQL, MongoDB, MySQL, SQL, Relational & Non Relational Databases, JavaScript, TypeScript, Docker, AWS, VPS, Express.js ,Git and GitHub, DevOps, Ubuntu, Redux.js, Inertia.js, ERP & SaaS,Databases management, DevOps practices, Problem solving ",
     skills2:
-      "Git and GitHub, DevOps, Ubuntu, Redux.js, Inertia.js, ERP & SaaS, Web Application Development, Custom Website Development, Cloud deployment, Databases management, DevOps practices, Problem solving, Agile methodologies, Cloud architecture, Full stack development, Software development, Linux",
+      "  Agile methodologies, Cloud architecture, Full stack development, Software development, Linux, RBAC (Role-Based Access Control), Prisma ORM, Mongoose, TypeORM, SSR, CSR, NextAuth, Firebase Auth, Supabase Auth, Strict Type Safety, Generics, Interfaces, Layered Architecture, Controllers Services Data Access Layer, Environment Variables, Production Logs, Failure Scenarios, Edge-Case Handling, Real-Time Features, Stripe Integration, Deployment Pipelines",
     experience1: {
       role: "Software Engineer",
       period: "08/2025 to Current",
       company: "Softech UK",
       location: "Lahore, Pakistan",
       details:
-        "I currently work as a Full Stack Software Engineer at Softech UK, where I design and develop end-to-end software solutions, including enterprise applications, ERP systems, and SaaS platforms tailored to a wide range of business requirements.\nMy work spans the entire technology stack, using modern tools and frameworks such as Python, Node.js, TypeScript, JavaScript, PHP, Laravel, React, and Next.js. This allows me to create intuitive, responsive front-end experiences while architecting secure and scalable back-end systems. I have extensive experience working here with relational and NoSQL databases, including MySQL, PostgreSQL, and MongoDB, ensuring effective data modeling, seamless integrations, and optimized performance.\nCollaborated with cross-functional teams to gather user requirements and specifications.\nConducted code reviews to ensure quality and adherence to best practices.\nParticipated in daily stand-up meetings to discuss project progress and challenges.",
+        "Architected and developed scalable SaaS and enterprise-grade applications using TypeScript, React.js, Next.js, Node.js, Express.js, and Laravel.\nDesigned and implemented secure RESTful APIs with strict validation, layered backend architecture, and RBAC authorization systems.\nBuilt production-ready frontend applications using React.js and Next.js with optimized SSR and CSR rendering strategies.\nDeveloped scalable backend services using Node.js and Laravel with focus on performance optimization, edge-case handling, and production stability.\nManaged PostgreSQL, MongoDB, and MySQL databases including schema design, indexing, query optimization, and ORM integration using Prisma ORM, Mongoose, and TypeORM.\nIntegrated third-party APIs including Stripe and OpenAI services while implementing secure authentication systems using NextAuth and JWT authentication.\nImplemented real-time application features using WebSockets and event-driven architectures.\nManaged AWS and DigitalOcean deployments, Linux server administration, environment variables, CI/CD pipelines, and production deployment workflows.\nDebugged production logs, monitored application performance, and resolved critical issues in live production environments.\nConducted rigorous pull request reviews and collaborated with engineering teams to deliver scalable software solutions.",
     },
     experience2: {
       role: "Software Engineer",
@@ -45,7 +45,7 @@ export default function Home() {
       company: "MetaX Payments Ltd",
       location: "Lahore, Pakistan",
       details:
-        "Led the end-to-end development of modern web applications, delivering seamless and responsive user experiences using React.js, Vue.js, and Tailwind CSS.\n Designed and implemented robust server-side systems with Node.js and Laravel, supporting the successful delivery of Enterprise, SaaS products and Exchange Platforms. Designed and optimized complex schemas in MongoDB for scalable web applications.\nImplemented relational database solutions in MySQL using Laravel's Eloquent ORM, ensuring data integrity, normalization, and efficient query management.\nParticipated in regular meetings with stakeholders to discuss project progress, changes, challenges.\nAnalyzed user requirements to develop software solutions and created technical specifications.\nConducted code reviews to ensure adherence to coding standards and best practices.\nUtilized variety of engineering languages to develop web applications.",
+        "Led the end-to-end development of scalable web applications and enterprise-grade platforms using React.js, Next.js, Node.js, Express.js, Laravel, and TypeScript.\nDesigned and implemented responsive frontend interfaces with React.js, Vue.js, and Tailwind CSS, delivering optimized and seamless user experiences across devices.\nEngineered secure backend architectures with RESTful APIs, authentication systems, and layered application structures for scalable enterprise solutions.\nDesigned and optimized MongoDB and MySQL database schemas with focus on scalability, normalization, data integrity, and high-performance query execution.\nImplemented ORM-based database management using Laravel Eloquent ORM and Mongoose to streamline scalable backend operations.\nIntegrated third-party services, payment gateway APIs, WebSocket-based real-time features, and external system integrations into production applications.\nCollaborated with engineering teams and stakeholders to translate business requirements into production-ready technical solutions.\nConducted code reviews to ensure adherence to coding standards, maintainability, performance optimization, and software engineering best practices.\nParticipated in cloud deployment workflows, Linux server management, production environment configuration, and application monitoring.\nEnsured application stability, handled failure scenarios, and implemented secure software engineering practices across enterprise and SaaS platforms.",
     },
     experience3: {
       role: "Junior Software Developer",
@@ -53,7 +53,7 @@ export default function Home() {
       company: "Natrix Coders",
       location: "Lahore, Pakistan",
       details:
-        "Worked on building web applications using React.js, Vue.js, and Tailwind CSS to create responsive user interfaces.\nHelped implement backend features using Node.js for small projects and internal tools.\nJoined team meetings to discuss project updates, requirements, and any issues faced.\nAssisted in writing simple technical specifications and following instructions from senior developers.\nReviewed code with teammates and learned coding best practices.\nUsed different programming languages and tools to complete assigned tasks in web development projects.",
+        "Developed responsive frontend interfaces using React.js, Vue.js, Tailwind CSS, HTML5, and CSS3, delivering modern and user-friendly web experiences.\nAssisted in backend development using Node.js and Express.js for internal tools and scalable web applications.\nWorked with RESTful APIs, database operations, and frontend-backend integrations within production-grade environments.\nCollaborated with senior engineers to implement scalable application features and enhance overall user experience and application performance.\nParticipated in debugging, testing, code reviews, and software quality assurance processes to maintain application stability and code quality.\nUtilized Git, GitHub, and Agile development methodologies while gaining hands-on experience in full-stack software engineering workflows.",
     },
     education: {
       degree: "Bachelor of Science: Computer Science",
@@ -61,7 +61,7 @@ export default function Home() {
       school: "University Of The Punjab",
       location: "Lahore, Pakistan",
     },
-    personalInfoTitle: "Full Stack Software Engineer",
+    personalInfoTitle: "Full Stack Software Engineer | TypeScript Backend Specialist | React.js Next.js Node.js | PostgreSQL MongoDB | AWS Linux DevOps",
     languages:
       " English (Professional Working Proficiency), Urdu (Professional Working Proficiency)",
   });
@@ -177,6 +177,8 @@ export default function Home() {
                       onChange={handleInputChange}
                     />
                   </div>
+                   {/* Personal Information */}
+         
                   <div className="space-y-2">
                     <label className="text-xs font-semibold uppercase text-slate-500">
                       Location
@@ -340,10 +342,12 @@ export default function Home() {
         >
           <div className="font-sans text-[11px] leading-snug text-black">
             {/* Header */}
-            <div className="text-center mb-4">
-              <h1 className="text-2xl font-bold uppercase tracking-wider mb-2">
+            <div className="text-center mb-4 ">
+              <h1 className="text-2xl font-bold uppercase tracking-wider ">
                 {formData.fullName}
               </h1>
+              
+                    <div className="w-full flex items-center justify-center font-semibold"> <p className="mb-2 text-[13px] w-[80%]">{formData.personalInfoTitle}</p></div>
               <div className="border-t border-b border-gray-400 py-1 mb-1 text-[10px]">
                 <p>
                   {formData.location} | {formData.phone} | {formData.email} |{" "}
@@ -450,13 +454,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Personal Information */}
-            <div className="mb-4">
-              <h2 className="text-center font-bold mb-2 border-t border-b border-gray-400 py-1 text-[12px] uppercase">
-                Personal Information
-              </h2>
-              <p>Title: {formData.personalInfoTitle}</p>
-            </div>
+           
 
             {/* Languages */}
             <div>

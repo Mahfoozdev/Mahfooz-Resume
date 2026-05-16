@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
     textTransform: "uppercase",
     fontWeight: "bold",
     letterSpacing: 1,
-    marginBottom: 8,
+    marginBottom: 2,
   },
   contactBorder: {
     borderTopWidth: 1,
@@ -267,10 +267,14 @@ const ResumePDF: React.FC<ResumePDFProps> = ({
     <Document>
       <Page size="A4" style={[styles.page, { fontFamily: getFontFamily() }]}>
         {/* Header */}
-        <View style={styles.header}>
+        <View>
           <Text style={[styles.title, { fontFamily: getFontFamily() }]}>
             {formData.fullName}
           </Text>
+<View style={{width:"100%",display:"flex",justifyContent:"center",alignItems:"center"}}>  <Text style={{width:"80%",fontSize:"10px",marginBottom:10,textAlign:"center",fontWeight:"600"}}>
+            {formData.personalInfoTitle}
+          </Text></View>
+        
           <View style={styles.contactBorder}>
             <Text style={[styles.contactText, { fontFamily: getFontFamily() }]}>
               {formData.location} | {formData.phone} | {formData.email} |{" "}
@@ -568,14 +572,14 @@ const ResumePDF: React.FC<ResumePDFProps> = ({
         </View>
 
         {/* Personal Information */}
-        <View>
+        {/* <View>
           <Text style={[styles.sectionTitle, { fontFamily: getFontFamily() }]}>
             Personal Information
           </Text>
           <Text style={[styles.personalInfo, { fontFamily: getFontFamily() }]}>
             Title: {formData.personalInfoTitle}
           </Text>
-        </View>
+        </View> */}
 
         {/* Languages */}
         <View>
