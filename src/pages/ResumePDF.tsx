@@ -275,53 +275,68 @@ const ResumePDF: React.FC<ResumePDFProps> = ({
             {formData.personalInfoTitle}
           </Text></View>
         
-          <View style={styles.contactBorder}>
-            <Text style={[styles.contactText, { fontFamily: getFontFamily() }]}>
-              {formData.location} | {formData.phone} | {formData.email} |{" "}
-              <Text style={[styles.bold, { fontFamily: getFontFamily() }]}>
-                WWW:
-              </Text>{" "}
-              <Link
-                src={
-                  formData.website.startsWith("http")
-                    ? formData.website
-                    : `https://${formData.website}`
-                }
-                style={{ color: "#000000", textDecoration: "underline" }}
-              >
-                {formData.website}
-              </Link>
-            </Text>
-            <Text style={[styles.contactText, { fontFamily: getFontFamily() }]}>
-              <Text style={[styles.bold, { fontFamily: getFontFamily() }]}>
-                WWW:
-              </Text>{" "}
-              <Link
-                src={
-                  formData.github1.startsWith("http")
-                    ? formData.github1
-                    : `https://${formData.github1}`
-                }
-                style={{ color: "#000000", textDecoration: "underline" }}
-              >
-                {formData.github1.replace(/^https?:\/\//, "")}
-              </Link>{" "}
-              |{" "}
-              <Text style={[styles.bold, { fontFamily: getFontFamily() }]}>
-                WWW:
-              </Text>{" "}
-              <Link
-                src={
-                  formData.github1.startsWith("http")
-                    ? formData.github1
-                    : `https://${formData.github2}`
-                }
-                style={{ color: "#000000" }}
-              >
-                {formData.github2.replace(/^https?:\/\//, "")}
-              </Link>
-            </Text>
-          </View>
+         <View style={styles.contactBorder}>
+  <Text style={[styles.contactText, { fontFamily: getFontFamily() }]}>
+    {formData.location} | {formData.phone} | {formData.email} |{" "}
+    <Text style={[styles.bold, { fontFamily: getFontFamily() }]}>
+      WWW:
+    </Text>{" "}
+    <Link
+      src={
+        formData.linkedIn.startsWith("http")
+          ? formData.linkedIn
+          : `https://${formData.linkedIn}`
+      }
+      style={{ color: "#000000", textDecoration: "underline" }}
+    >
+      {formData.linkedIn.replace(/^https?:\/\//, "")}
+    </Link>
+  </Text>
+
+  <Text style={[styles.contactText, { fontFamily: getFontFamily() }]}>
+    <Text style={[styles.bold, { fontFamily: getFontFamily() }]}>
+      WWW:
+    </Text>{" "}
+    <Link
+      src={
+        formData.github1.startsWith("http")
+          ? formData.github1
+          : `https://${formData.github1}`
+      }
+      style={{ color: "#000000", textDecoration: "underline" }}
+    >
+      {formData.github1.replace(/^https?:\/\//, "")}
+    </Link>{" "}
+    |{" "}
+    <Text style={[styles.bold, { fontFamily: getFontFamily() }]}>
+      WWW:
+    </Text>{" "}
+    <Link
+      src={
+        formData.github2.startsWith("http")
+          ? formData.github2
+          : `https://${formData.github2}`
+      }
+      style={{ color: "#000000", textDecoration: "underline" }}
+    >
+      {formData.github2.replace(/^https?:\/\//, "")}
+    </Link>{" "}
+    |{" "}
+    <Text style={[styles.bold, { fontFamily: getFontFamily() }]}>
+      WWW:
+    </Text>{" "}
+    <Link
+      src={
+        formData.website.startsWith("http")
+          ? formData.website
+          : `https://${formData.website}`
+      }
+      style={{ color: "#000000", textDecoration: "underline" }}
+    >
+      {formData.website.replace(/^https?:\/\//, "")}
+    </Link>
+  </Text>
+</View>
         </View>
 
         {/* Personal Summary */}
@@ -350,9 +365,9 @@ const ResumePDF: React.FC<ResumePDFProps> = ({
         </View>
 
         {/* Skills */}
-        <View>
+        {/* <View>
           <Text style={[styles.sectionTitle, { fontFamily: getFontFamily() }]}>
-            Skills
+            Core Compentencies
           </Text>
           <View style={styles.skillsGrid}>
             <View style={styles.skillsColumn}>
@@ -400,7 +415,55 @@ const ResumePDF: React.FC<ResumePDFProps> = ({
               ))}
             </View>
           </View>
-        </View>
+        </View> */}
+
+        <View style={{ marginBottom: 10 }}>
+  <Text
+    style={[
+      styles.sectionTitle,
+      { fontFamily: getFontFamily() }
+    ]}
+  >
+    CORE COMPETENCIES
+  </Text>
+
+  <View>
+  <Text style={[styles.contactText, { fontFamily: getFontFamily(), textAlign: "left" }]}>
+    <Text style={[styles.bold, { fontFamily: getFontFamily() }]}>
+      Frontend:
+    </Text>{" "}
+    {formData.coreCompetencies.frontend}
+  </Text>
+
+  <Text style={[styles.contactText, { fontFamily: getFontFamily(), textAlign: "left" }]}>
+    <Text style={[styles.bold, { fontFamily: getFontFamily() }]}>
+      Backend:
+    </Text>{" "}
+    {formData.coreCompetencies.backend}
+  </Text>
+
+  <Text style={[styles.contactText, { fontFamily: getFontFamily(), textAlign: "left" }]}>
+    <Text style={[styles.bold, { fontFamily: getFontFamily() }]}>
+      Database:
+    </Text>{" "}
+    {formData.coreCompetencies.database}
+  </Text>
+
+  <Text style={[styles.contactText, { fontFamily: getFontFamily(), textAlign: "left" }]}>
+    <Text style={[styles.bold, { fontFamily: getFontFamily() }]}>
+      Cloud & DevOps:
+    </Text>{" "}
+    {formData.coreCompetencies.cloudDevops}
+  </Text>
+
+  <Text style={[styles.contactText, { fontFamily: getFontFamily(), textAlign: "left" }]}>
+    <Text style={[styles.bold, { fontFamily: getFontFamily() }]}>
+      Engineering:
+    </Text>{" "}
+    {formData.coreCompetencies.engineering}
+  </Text>
+</View>
+</View>
 
         {/* Work Experience */}
         <View>

@@ -25,43 +25,53 @@ export default function Home() {
     website: "https://mahfooz-dwv2.vercel.app/",
     github1: "https://github.com/Mahfoozdev",
     github2: "https://github.com/MahfoozMindit",
+    linkedIn: "https://www.linkedin.com/in/muhammad-mahfooz-ul-haq-09391b411",
     summary:
-      "I am a results-driven Full Stack Software Engineer with 3+ years of production experience building scalable SaaS and enterprise-grade web applications using TypeScript, React.js, Next.js, Node.js, Express.js, and Laravel. Strong expertise in backend architecture, RESTful API development, authentication systems, database schema design, cloud deployment, and production-grade engineering practices.\n\nExperienced in developing high-performance frontend applications with React.js and Next.js while implementing secure, scalable backend systems using Node.js, Express.js, and Laravel. Proficient in PostgreSQL, MongoDB, Prisma ORM, Mongoose, and TypeORM with deep understanding of data integrity, query optimization, and scalable database design.\n\nSkilled in AWS, DigitalOcean, Linux server management, Docker, CI/CD pipelines, and production deployment workflows. Hands-on experience integrating third-party APIs including Stripe and OpenAI, implementing RBAC authorization systems, WebSockets, and real-time application features.\n\nStrong engineering mindset focused on edge-case handling, production stability, clean architecture, strict type safety, performance optimization, and end-to-end feature ownership. Adept at collaborating with cross-functional teams, conducting code reviews, mentoring junior developers, and delivering maintainable production-ready software solutions.\n\nExperienced in designing layered backend architectures using Controllers, Services, and Data Access patterns with strong focus on strict type safety, RBAC authorization systems, edge-case handling, and production stability.",
+  "Full Stack Software Engineer with 3+ years of professional experience designing, developing, and deploying scalable SaaS and enterprise-grade web applications using React.js, Next.js, Node.js, Express.js, Laravel, TypeScript, JavaScript (ES6+), and PHP. Strong expertise in backend architecture, RESTful API development, authentication and authorization systems, database schema design, cloud deployment, and production-grade software engineering practices.\n\nExperienced in developing high-performance, responsive frontend applications using React.js, Next.js, React Hooks, and component-based architecture while building secure, scalable backend systems with Node.js, Express.js, and Laravel. Proficient in MySQL, PostgreSQL, MongoDB, Prisma ORM, Mongoose, TypeORM, and Laravel Eloquent ORM with extensive experience in database design, normalization, indexing, query optimization, transactions, and data integrity.\n\nSkilled in AWS, DigitalOcean, Docker, Linux server administration, Ubuntu, CI/CD pipelines, Git, GitHub, and production deployment workflows. Hands-on experience integrating third-party APIs including Stripe, OpenAI, payment gateways, WebSockets, and implementing JWT authentication, RBAC authorization, OAuth2, and real-time application features.\n\nStrong engineering mindset focused on clean architecture, layered application design, strict type safety, performance optimization, debugging, testing, code reviews, edge-case handling, production stability, and end-to-end feature ownership. Experienced in collaborating with cross-functional Agile teams to deliver secure, maintainable, scalable, and production-ready software solutions.",
+      coreCompetencies: {
+  frontend: "React.js, Next.js, JavaScript, TypeScript, Redux Toolkit, React Hooks, HTML5, CSS3",
+  backend: "Node.js, Express.js, Laravel, REST APIs, JWT, OAuth2",
+  database: "MySQL, MongoDB, PostgreSQL, Prisma ORM, Mongoose, TypeORM",
+  cloudDevops: "AWS, Docker, CI/CD, Linux, Ubuntu, Git, GitHub",
+  engineering: "Debugging, Testing, Performance Optimization, Code Reviews, Agile"
+},
     skills1:
-      "Nodejs, Laravel, PHP, Python, React.js, Vue.js, Next.js, PostgreSQL, MongoDB, MySQL, SQL, Relational & Non Relational Databases, JavaScript, TypeScript, Docker, AWS, VPS, Express.js ,Git and GitHub, DevOps, Ubuntu, Redux.js, Inertia.js, ERP & SaaS,Databases management, DevOps practices, Problem solving ",
+  "React.js, Next.js, Node.js, Express.js, Laravel, PHP, Python, Vue.js, JavaScript (ES6+), TypeScript, Redux.js, Redux Toolkit, React Hooks, Inertia.js, REST API Development, Responsive Web Development, Component-Based Architecture, State Management, MongoDB, PostgreSQL, MySQL, SQL, Relational & Non-Relational Databases, Database Design, Database Management, Deployment Pipelines Query Optimization, AWS, VPS, Ubuntu, Linux, Git, GitHub, DevOps, CI/CD, JWT Authentication",
     skills2:
-      "  Agile methodologies, Cloud architecture, Full stack development, Software development, Linux, RBAC (Role-Based Access Control), Prisma ORM, Mongoose, TypeORM, SSR, CSR, NextAuth, Firebase Auth, Supabase Auth, Strict Type Safety, Generics, Interfaces, Layered Architecture, Controllers Services Data Access Layer, Environment Variables, Production Logs, Failure Scenarios, Edge-Case Handling, Real-Time Features, Stripe Integration, Deployment Pipelines",
-    experience1: {
-      role: "Software Engineer",
-      period: "08/2025 to Current",
-      company: "Softech UK",
-      location: "Lahore, Pakistan",
-      details:
-        "Architected and developed scalable SaaS and enterprise-grade applications using TypeScript, React.js, Next.js, Node.js, Express.js, and Laravel.\nDesigned and implemented secure RESTful APIs with strict validation, layered backend architecture, and RBAC authorization systems.\nBuilt production-ready frontend applications using React.js and Next.js with optimized SSR and CSR rendering strategies.\nDeveloped scalable backend services using Node.js and Laravel with focus on performance optimization, edge-case handling, and production stability.\nManaged PostgreSQL, MongoDB, and MySQL databases including schema design, indexing, query optimization, and ORM integration using Prisma ORM, Mongoose, and TypeORM.\nIntegrated third-party APIs including Stripe and OpenAI services while implementing secure authentication systems using NextAuth and JWT authentication.\nImplemented real-time application features using WebSockets and event-driven architectures.\nManaged AWS and DigitalOcean deployments, Linux server administration, environment variables, CI/CD pipelines, and production deployment workflows.\nDebugged production logs, monitored application performance, and resolved critical issues in live production environments.\nConducted rigorous pull request reviews and collaborated with engineering teams to deliver scalable software solutions.",
-    },
-    experience2: {
-      role: "Software Engineer",
-      period: "08/2023 to 07/2025",
-      company: "MetaX Payments Ltd",
-      location: "Lahore, Pakistan",
-      details:
-        "Led the end-to-end development of scalable web applications and enterprise-grade platforms using React.js, Next.js, Node.js, Express.js, Laravel, and TypeScript.\nDesigned and implemented responsive frontend interfaces with React.js, Vue.js, and Tailwind CSS, delivering optimized and seamless user experiences across devices.\nEngineered secure backend architectures with RESTful APIs, authentication systems, and layered application structures for scalable enterprise solutions.\nDesigned and optimized MongoDB and MySQL database schemas with focus on scalability, normalization, data integrity, and high-performance query execution.\nImplemented ORM-based database management using Laravel Eloquent ORM and Mongoose to streamline scalable backend operations.\nIntegrated third-party services, payment gateway APIs, WebSocket-based real-time features, and external system integrations into production applications.\nCollaborated with engineering teams and stakeholders to translate business requirements into production-ready technical solutions.\nConducted code reviews to ensure adherence to coding standards, maintainability, performance optimization, and software engineering best practices.\nParticipated in cloud deployment workflows, Linux server management, production environment configuration, and application monitoring.\nEnsured application stability, handled failure scenarios, and implemented secure software engineering practices across enterprise and SaaS platforms.",
-    },
-    experience3: {
-      role: "Junior Software Developer",
-      period: "10/2022 to 07/2023",
-      company: "Natrix Coders",
-      location: "Lahore, Pakistan",
-      details:
-        "Developed responsive frontend interfaces using React.js, Vue.js, Tailwind CSS, HTML5, and CSS3, delivering modern and user-friendly web experiences.\nAssisted in backend development using Node.js and Express.js for internal tools and scalable web applications.\nWorked with RESTful APIs, database operations, and frontend-backend integrations within production-grade environments.\nCollaborated with senior engineers to implement scalable application features and enhance overall user experience and application performance.\nParticipated in debugging, testing, code reviews, and software quality assurance processes to maintain application stability and code quality.\nUtilized Git, GitHub, and Agile development methodologies while gaining hands-on experience in full-stack software engineering workflows.",
-    },
+      "  Agile methodologies, Cloud architecture, Full stack development, Software development, Linux, RBAC (Role-Based Access Control), Prisma ORM, Mongoose, TypeORM, SSR, CSR, NextAuth, Firebase Auth, Supabase Auth, Strict Type Safety, Generics, Interfaces, Layered Architecture, Controllers Services Data Access Layer, Environment Variables, Production Logs, Edge-Case Handling, Real-Time Features, Stripe Integration, ERP & SaaS Development, Problem Solving, Debugging, Unit Testing, Code Reviews, Agile Development, Indexing, Transactions, Docker, OAuth2, API Security",
+   experience1: {
+  role: "Software Engineer",
+  period: "08/2025 – Present",
+  company: "Softech Solutions",
+  location: "Lahore, Pakistan",
+  details:
+    "Architected and developed scalable SaaS and enterprise-grade web applications using React.js, Next.js, Node.js, Express.js, Laravel, TypeScript, JavaScript (ES6+), and PHP.\nDesigned and implemented secure, scalable RESTful APIs with authentication, authorization (RBAC), JWT, input validation, and API security best practices.\nBuilt production-ready frontend applications using React.js and Next.js with reusable component architecture, React Hooks, state management, SSR, CSR, and responsive UI development.\nDeveloped scalable backend services using Node.js, Express.js, and Laravel with focus on asynchronous programming, business logic implementation, performance optimization, and production stability.\nDesigned, optimized, and maintained MySQL, PostgreSQL, and MongoDB databases including schema design, normalization, indexing, transactions, query optimization, and ORM integration using Prisma ORM, TypeORM, Mongoose, and Laravel Eloquent ORM.\nIntegrated third-party APIs including Stripe, OpenAI, payment gateways, and external services while implementing secure authentication using JWT, NextAuth, and OAuth-based workflows.\nImplemented real-time application features using WebSockets and event-driven architectures to enhance user experience and system responsiveness.\nManaged AWS and DigitalOcean deployments, Linux server administration, Docker containers, environment configuration, CI/CD pipelines, and automated production deployment workflows.\nMonitored production environments, analyzed application logs, debugged critical issues, optimized application performance, and ensured high system availability.\nCollaborated with cross-functional teams using Git and Agile methodologies, conducted pull request reviews, mentored junior developers, and maintained high code quality through debugging, testing, and engineering best practices.",
+},
+
+experience2: {
+  role: "Software Engineer",
+  period: "08/2023 to 07/2025",
+  company: "MetaX Payments Ltd",
+  location: "Lahore, Pakistan",
+  details:
+    "Led the end-to-end development of scalable enterprise web applications using React.js, Next.js, Node.js, Express.js, Laravel, TypeScript, JavaScript, and PHP.\nDesigned and developed responsive, cross-browser compatible frontend interfaces using React.js, Vue.js, Tailwind CSS, HTML5, CSS3, reusable components, and modern frontend development practices.\nEngineered secure backend applications using Node.js, Express.js, and Laravel by developing scalable RESTful APIs, authentication systems, RBAC authorization, and layered application architecture.\nDesigned and optimized MySQL and MongoDB databases with focus on schema design, normalization, indexing, transactions, data integrity, and high-performance query optimization.\nImplemented ORM-based database management using Laravel Eloquent ORM and Mongoose to develop maintainable, scalable, and efficient backend systems.\nIntegrated third-party APIs, payment gateway services, WebSocket-based real-time communication, and external enterprise platforms into production applications.\nCollaborated with engineering teams, product managers, QA engineers, and stakeholders using Git and Agile methodologies to deliver production-ready software solutions.\nConducted code reviews, debugging, testing, performance optimization, and application monitoring while following software engineering best practices.\nParticipated in AWS and Linux-based deployment workflows, Docker environments, CI/CD pipelines, production releases, and infrastructure configuration.\nEnsured application reliability by implementing secure authentication, authorization, error handling, failure recovery, logging, and production support processes.",
+},
+
+experience3: {
+  role: "Junior Software Developer",
+  period: "10/2022 to 07/2023",
+  company: "Natrix Coders",
+  location: "Lahore, Pakistan",
+  details:
+    "Developed responsive and user-friendly frontend interfaces using React.js, Vue.js, HTML5, CSS3, JavaScript (ES6+), and Tailwind CSS following modern frontend development practices.\nAssisted in backend development using Node.js and Express.js by building RESTful APIs, implementing business logic, and integrating frontend applications with backend services.\nWorked with MySQL and MongoDB databases, performing CRUD operations, query optimization, schema updates, and frontend-backend data integration.\nCollaborated with senior software engineers to develop reusable components, responsive UI features, API integrations, and scalable application functionality.\nParticipated in debugging, testing, code reviews, issue resolution, and software quality assurance to improve application stability and maintainability.\nUtilized Git, GitHub, and Agile development methodologies while contributing to collaborative full-stack software engineering workflows.\nAssisted in implementing authentication, authorization, validation, secure coding practices, and REST API integrations across multiple projects.\nSupported deployment activities, environment configuration, bug fixing, and continuous improvements throughout the software development lifecycle.",
+},
     education: {
       degree: "Bachelor of Science: Computer Science",
       date: "01/2025",
       school: "University Of The Punjab",
       location: "Lahore, Pakistan",
     },
-    personalInfoTitle: "Full Stack Software Engineer | TypeScript Backend Specialist | React.js Next.js Node.js | PostgreSQL MongoDB | AWS Linux DevOps",
+    personalInfoTitle: "Full Stack MERN Developer | React.js • Node.js • Express.js • TypeScript • MySQL • MongoDB • AWS • Docker",
     languages:
       " English (Professional Working Proficiency), Urdu (Professional Working Proficiency)",
   });
@@ -241,9 +251,85 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+              <div className="space-y-2">
+  <label className="text-xs font-semibold uppercase text-slate-500">
+    LinkedIn Link
+  </label>
+  <Input
+    name="linkedIn"
+    value={formData.linkedIn}
+    onChange={handleInputChange}
+  />
+</div>
+
+{/* Core Competencies */}
+<div className="space-y-4">
+  <h3 className="text-sm font-bold border-b pb-1 text-slate-700">
+    Core Competencies
+  </h3>
+
+  <div className="grid grid-cols-1 gap-4">
+
+    <div className="space-y-2">
+      <label className="text-xs font-semibold uppercase text-slate-500">
+        Frontend
+      </label>
+      <Textarea
+        name="coreCompetencies.frontend"
+        value={formData.coreCompetencies.frontend}
+        onChange={handleInputChange}
+      />
+    </div>
+
+    <div className="space-y-2">
+      <label className="text-xs font-semibold uppercase text-slate-500">
+        Backend
+      </label>
+      <Textarea
+        name="coreCompetencies.backend"
+        value={formData.coreCompetencies.backend}
+        onChange={handleInputChange}
+      />
+    </div>
+
+    <div className="space-y-2">
+      <label className="text-xs font-semibold uppercase text-slate-500">
+        Database
+      </label>
+      <Textarea
+        name="coreCompetencies.database"
+        value={formData.coreCompetencies.database}
+        onChange={handleInputChange}
+      />
+    </div>
+
+    <div className="space-y-2">
+      <label className="text-xs font-semibold uppercase text-slate-500">
+        Cloud & DevOps
+      </label>
+      <Textarea
+        name="coreCompetencies.cloudDevops"
+        value={formData.coreCompetencies.cloudDevops}
+        onChange={handleInputChange}
+      />
+    </div>
+
+    <div className="space-y-2">
+      <label className="text-xs font-semibold uppercase text-slate-500">
+        Engineering
+      </label>
+      <Textarea
+        name="coreCompetencies.engineering"
+        value={formData.coreCompetencies.engineering}
+        onChange={handleInputChange}
+      />
+    </div>
+
+  </div>
+</div>
 
               {/* Personal Info Title */}
-              <div className="space-y-2">
+              <div className="space-y-2 border-t border-gray-300">
                 <label className="text-xs font-semibold uppercase text-slate-500">
                   Personal Information Title
                 </label>
@@ -307,6 +393,86 @@ export default function Home() {
                   className="min-h-[100px]"
                 />
               </div>
+{/* work experience 2 */}
+               <div className="space-y-4">
+                <h3 className="text-sm font-bold border-b pb-1 text-slate-700">
+                  Work Experience 2
+                </h3>
+                <div className="grid grid-cols-2 gap-2">
+                  <Input
+                    placeholder="Role"
+                    name="experience1.role"
+                    value={formData.experience2.role}
+                    onChange={handleInputChange}
+                  />
+                  <Input
+                    placeholder="Period"
+                    name="experience1.period"
+                    value={formData.experience2.period}
+                    onChange={handleInputChange}
+                  />
+                  <Input
+                    placeholder="Company"
+                    name="experience1.company"
+                    value={formData.experience2.company}
+                    onChange={handleInputChange}
+                  />
+                  <Input
+                    placeholder="Location"
+                    name="experience1.location"
+                    value={formData.experience2.location}
+                    onChange={handleInputChange}
+                  />
+                </div>
+                <Textarea
+                  placeholder="Details"
+                  name="experience1.details"
+                  value={formData.experience2.details}
+                  onChange={handleInputChange}
+                  className="min-h-[100px]"
+                />
+              </div>
+
+              {/* work experience 3 */}
+
+               <div className="space-y-4">
+                <h3 className="text-sm font-bold border-b pb-1 text-slate-700">
+                  Work Experience 3
+                </h3>
+                <div className="grid grid-cols-2 gap-2">
+                  <Input
+                    placeholder="Role"
+                    name="experience1.role"
+                    value={formData.experience3.role}
+                    onChange={handleInputChange}
+                  />
+                  <Input
+                    placeholder="Period"
+                    name="experience1.period"
+                    value={formData.experience3.period}
+                    onChange={handleInputChange}
+                  />
+                  <Input
+                    placeholder="Company"
+                    name="experience1.company"
+                    value={formData.experience3.company}
+                    onChange={handleInputChange}
+                  />
+                  <Input
+                    placeholder="Location"
+                    name="experience1.location"
+                    value={formData.experience3.location}
+                    onChange={handleInputChange}
+                  />
+                </div>
+                <Textarea
+                  placeholder="Details"
+                  name="experience1.details"
+                  value={formData.experience3.details}
+                  onChange={handleInputChange}
+                  className="min-h-[100px]"
+                />
+              </div>
 
               {/* Skills */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -351,11 +517,11 @@ export default function Home() {
               <div className="border-t border-b border-gray-400 py-1 mb-1 text-[10px]">
                 <p>
                   {formData.location} | {formData.phone} | {formData.email} |{" "}
-                  <strong>WWW:</strong> {formData.website} |
+                   <strong>WWW:</strong> {formData.linkedIn}
                 </p>
                 <p>
                   <strong>WWW:</strong> {formData.github1} |{" "}
-                  <strong>WWW:</strong> {formData.github2}
+                  <strong>WWW:</strong> {formData.github2} | <strong>WWW:</strong> {formData.website}
                 </p>
               </div>
             </div>
@@ -370,24 +536,57 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Skills */}
-            <div className="mb-4">
-              <h2 className="text-center font-bold mb-2 border-t border-b border-gray-400 py-1 text-[12px] uppercase">
-                Skills
-              </h2>
-              <div className="grid grid-cols-2 gap-x-8 pl-4">
-                <ul className="list-disc pl-5 space-y-0.5">
-                  {formData.skills1.split(",").map((s, i) => (
-                    <li key={i}>{s.trim()}</li>
-                  ))}
-                </ul>
-                <ul className="list-disc pl-5 space-y-0.5">
-                  {formData.skills2.split(",").map((s, i) => (
-                    <li key={i}>{s.trim()}</li>
-                  ))}
-                </ul>
-              </div>
-            </div>
+           
+
+            {/* Core Competencies */}
+<div className="space-y-4">
+
+{/* Core Competencies - ATS Friendly */}
+<div className="mb-4">
+  <h2 className="text-center font-bold mb-2 border-t border-b border-gray-400 py-1 text-[12px] uppercase">
+    Core Competencies
+  </h2>
+  
+  <div className="space-y-1">
+    <div className="flex gap-2">
+      <label className="text-md font-bold">
+        Frontend:
+      </label>
+      <p className="text-md">{formData.coreCompetencies.frontend}</p>
+    </div>
+    
+    <div className="flex gap-2">
+      <label className="text-md font-bold">
+        Backend:
+      </label>
+      <p className="text-md">{formData.coreCompetencies.backend}</p>
+    </div>
+    
+    <div className="flex gap-2">
+      <label className="text-md font-bold">
+        Database:
+      </label>
+      <p className="text-md">{formData.coreCompetencies.database}</p>
+    </div>
+    
+    <div className="flex gap-2">
+      <label className="text-md font-bold">
+        Cloud & DevOps:
+      </label>
+      <p className="text-md">{formData.coreCompetencies.cloudDevops}</p>
+    </div>
+    
+    <div className="flex gap-2">
+      <label className="text-md font-bold">
+        Engineering:
+      </label>
+      <p className="text-md">{formData.coreCompetencies.engineering}</p>
+    </div>
+  </div>
+</div>
+</div>
+
+            
 
             {/* Work Experience */}
             <div className="mb-4">
