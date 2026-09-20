@@ -27,47 +27,102 @@ export default function Home() {
     github2: "https://github.com/MahfoozMindit",
     linkedIn: "https://www.linkedin.com/in/muhammad-mahfooz-ul-haq-09391b411",
     summary:
-  "Full Stack Software Engineer with 3+ years of professional experience designing, developing, and deploying scalable SaaS and enterprise-grade web applications using React.js, Next.js, Node.js, Express.js, Laravel, TypeScript, JavaScript (ES6+), and PHP. Strong expertise in backend architecture, RESTful API development, authentication and authorization systems, database schema design, cloud deployment, and production-grade software engineering practices.\n\nExperienced in developing high-performance, responsive frontend applications using React.js, Next.js, React Hooks, and component-based architecture while building secure, scalable backend systems with Node.js, Express.js, and Laravel. Proficient in MySQL, PostgreSQL, MongoDB, Prisma ORM, Mongoose, TypeORM, and Laravel Eloquent ORM with extensive experience in database design, normalization, indexing, query optimization, transactions, and data integrity.\n\nSkilled in AWS, DigitalOcean, Docker, Linux server administration, Ubuntu, CI/CD pipelines, Git, GitHub, and production deployment workflows. Hands-on experience integrating third-party APIs including Stripe, OpenAI, payment gateways, WebSockets, and implementing JWT authentication, RBAC authorization, OAuth2, and real-time application features.\n\nStrong engineering mindset focused on clean architecture, layered application design, strict type safety, performance optimization, debugging, testing, code reviews, edge-case handling, production stability, and end-to-end feature ownership. Experienced in collaborating with cross-functional Agile teams to deliver secure, maintainable, scalable, and production-ready software solutions.",
-      coreCompetencies: {
-  frontend: "React.js, Next.js, JavaScript, TypeScript, Redux Toolkit, React Query (TanStack Query), React Hooks, HTML5, CSS3",
-  backend: "Node.js, Express.js, Inertia.js, Laravel, REST APIs, JWT, OAuth2, Python, Django, FastAPI",
-  database: "MySQL, MongoDB, PostgreSQL, Prisma ORM, Mongoose, TypeORM,Redis,Firestore",
-  cloudDevops: "AWS, Docker, CI/CD, Linux, Ubuntu, Git, GitHub",
-  engineering: "Debugging, Testing, Performance Optimization, Code Reviews, Agile"
+  "Full Stack Software Engineer specializing in Laravel, MERN, and Agentic AI, with experience building scalable web applications, fintech platforms, SaaS products, and AI-powered solutions. Skilled in React, Next.js, Laravel, Node.js, PostgreSQL, MongoDB, and LLM technologies, with a strong focus on backend architecture, APIs, real-time systems, and intelligent automation. Passionate about turning complex business requirements into high-performance, production-ready software.",
+  projects: [
+  {
+    name: "PayTime",
+    desc: "A fintech payroll management platform for managing employee salary data throughout the fiscal year. Built payroll generation, salary slips, allowances, custom allowances, EOBI, PF, UPF, schemes, attendance management, and automated attendance-based salary deductions based on configurable company rules.",
+    link: "https://app.paytime.pk/",
+  },
+  {
+    name: "Compito",
+    desc: "A marketplace platform connecting customers with skilled workers and service providers. Built user profiles, customer-worker communication, service requests, offers, payment workflows, location-based features using Google Maps and Geoapify, and real-time interactions.",
+    link: "https://compito.uk/",
+  },
+  {
+    name: "UPCS",
+    desc: "A location-sharing web application that enables users to save precise locations using postcode-based pinpoints and share them for accurate navigation and location discovery. Integrated mapping, location services, and third-party APIs for reliable location-based functionality.",
+    link: "",
+  },
+  {
+    name: "You Rent",
+    desc: "A UK property marketplace for discovering, searching, and filtering property listings, exploring locations, and interacting with property deals. Built advanced Google Maps and location-based functionality, including map-driven property discovery and 3D location visualization.",
+    link: "https://yourent.uk/",
+  },
+  {
+    name: "MetaX Exchange",
+    desc: "A fintech and banking application for managing user accounts and financial workflows. Developed user registration, authentication, account functionality, backend APIs, business logic, and interactive interfaces using Laravel, Vue.js, and Inertia.js.",
+    link: "https://metaxexchange.com/",
+  },
+  {
+    name: "Darbul Umrah",
+    desc: "A travel and Umrah management platform for companies to manage Umrah and Hajj services, trips, agents, routes, transport companies, and business operations. Built workflows for trip management, agent coordination, transportation, invoicing, service slips, and operational documents.",
+    link: "https://darbulumrah.com/",
+  },
+],
+coreCompetencies: {
+  frontend:
+    "React.js, Next.js, Vue.js, JavaScript (ES6+), TypeScript, Redux, Redux Toolkit, TanStack Query, React Hooks, Inertia.js, Tailwind CSS, HTML5, CSS3, Responsive UI",
+
+  backend:
+    "Laravel, PHP, Node.js, Express.js, REST APIs, WebSockets, Laravel Reverb, Laravel Echo, Pusher, JWT, OAuth, Authentication, Authorization (RBAC), API Integrations",
+
+  database:
+    "PostgreSQL, MySQL, MongoDB, Redis, pgvector, Prisma ORM, Mongoose, TypeORM, Laravel Eloquent, Database Design, Data Modeling, Query Optimization, Indexing, Transactions",
+
+  aiEngineering:
+    "AI Agents, LLM Applications, RAG, n8n, Ollama, LLM APIs, Embeddings, Vector Search, pgvector, Tool Calling, AI Workflows, LLM Integration, AI Automation",
+
+  cloudDevops:
+    "AWS, GCP, Docker, Linux, Ubuntu, Git, GitHub, GitHub Actions, CI/CD, Production Deployment, Server Administration, Environment Configuration, SSL, Reverse Proxy",
+
+  engineering:
+    "Software Architecture, Full-Stack Development, SaaS Development, Fintech Development, Real-Time Systems, Payment Integrations, API Design, Debugging, Testing, Performance Optimization, Code Reviews, Agile"
 },
     skills1:
   "React.js, Next.js, Node.js, Express.js, Laravel, PHP, Python, Vue.js, JavaScript (ES6+), TypeScript, Redux.js, Redux Toolkit, React Hooks, Inertia.js, REST API Development, Responsive Web Development, Component-Based Architecture, State Management, MongoDB, PostgreSQL, MySQL, SQL, Relational & Non-Relational Databases, Database Design, Database Management, Deployment Pipelines Query Optimization, AWS, VPS, Ubuntu, Linux, Git, GitHub, DevOps, CI/CD, JWT Authentication",
     skills2:
       "  Agile methodologies, Cloud architecture, Full stack development, Software development, Linux, RBAC (Role-Based Access Control), Prisma ORM, Mongoose, TypeORM, SSR, CSR, NextAuth, Firebase Auth, Supabase Auth, Strict Type Safety, Generics, Interfaces, Layered Architecture, Controllers Services Data Access Layer, Environment Variables, Production Logs, Edge-Case Handling, Real-Time Features, Stripe Integration, ERP & SaaS Development, Problem Solving, Debugging, Unit Testing, Code Reviews, Agile Development, Indexing, Transactions, Docker, OAuth2, API Security",
-   experience1: {
-  role: "Software Engineer",
-  period: "08/2025 – Present",
-  company: "Softech Solutions",
-  location: "Lahore, Pakistan",
-  details:
-    "Architected and developed scalable SaaS and enterprise-grade web applications using React.js, Next.js, Node.js, Express.js, Laravel, TypeScript, JavaScript (ES6+), and PHP.\nDesigned and implemented secure, scalable RESTful APIs with authentication, authorization (RBAC), JWT, input validation, and API security best practices.\nBuilt production-ready frontend applications using React.js and Next.js with reusable component architecture, React Hooks, state management, SSR, CSR, and responsive UI development.\nDeveloped scalable backend services using Node.js, Express.js, and Laravel with focus on asynchronous programming, business logic implementation, performance optimization, and production stability.\nDesigned, optimized, and maintained MySQL, PostgreSQL, and MongoDB databases including schema design, normalization, indexing, transactions, query optimization, and ORM integration using Prisma ORM, TypeORM, Mongoose, and Laravel Eloquent ORM.\nIntegrated third-party APIs including Stripe, OpenAI, payment gateways, and external services while implementing secure authentication using JWT, NextAuth, and OAuth-based workflows.\nImplemented real-time application features using WebSockets and event-driven architectures to enhance user experience and system responsiveness.\nManaged AWS and DigitalOcean deployments, Linux server administration, Docker containers, environment configuration, CI/CD pipelines, and automated production deployment workflows.\nMonitored production environments, analyzed application logs, debugged critical issues, optimized application performance, and ensured high system availability.\nCollaborated with cross-functional teams using Git and Agile methodologies, conducted pull request reviews, mentored junior developers, and maintained high code quality through debugging, testing, and engineering best practices.",
-},
 
-experience2: {
-  role: "Software Engineer",
-  period: "08/2023 to 07/2025",
-  company: "MetaX Payments Ltd",
-  location: "Lahore, Pakistan",
-  details:
-    "Led the end-to-end development of scalable enterprise web applications using React.js, Next.js, Node.js, Express.js, Laravel, TypeScript, JavaScript, and PHP.\nDesigned and developed responsive, cross-browser compatible frontend interfaces using React.js, Vue.js, Tailwind CSS, HTML5, CSS3, reusable components, and modern frontend development practices.\nEngineered secure backend applications using Node.js, Express.js, and Laravel by developing scalable RESTful APIs, authentication systems, RBAC authorization, and layered application architecture.\nDesigned and optimized MySQL and MongoDB databases with focus on schema design, normalization, indexing, transactions, data integrity, and high-performance query optimization.\nImplemented ORM-based database management using Laravel Eloquent ORM and Mongoose to develop maintainable, scalable, and efficient backend systems.\nIntegrated third-party APIs, payment gateway services, WebSocket-based real-time communication, and external enterprise platforms into production applications.\nCollaborated with engineering teams, product managers, QA engineers, and stakeholders using Git and Agile methodologies to deliver production-ready software solutions.\nConducted code reviews, debugging, testing, performance optimization, and application monitoring while following software engineering best practices.\nParticipated in AWS and Linux-based deployment workflows, Docker environments, CI/CD pipelines, production releases, and infrastructure configuration.\nEnsured application reliability by implementing secure authentication, authorization, error handling, failure recovery, logging, and production support processes.",
-},
+  experience1: {
+    role: "Lead Software Engineer",
+    period: "08/2025 – Present",
+    company: "Softech Solutions UK",
+    location: "Lahore, Pakistan",
+    details:
+      "Led the end-to-end development of production-grade full-stack, fintech, SaaS, and AI-powered applications using React.js, TypeScript, Laravel, PHP, and PostgreSQL.\nDesigned and implemented scalable RESTful APIs and backend services with Laravel, including authentication, authorization, validation, business logic, database operations, and third-party integrations.\nBuilt production-ready frontend applications using React.js and TypeScript with reusable component architecture, responsive interfaces, API integration, and modern frontend practices.\nImplemented real-time communication and live application features using Laravel Reverb, Laravel Echo, Pusher, and WebSockets.\nIntegrated payment gateways including Cybersource, Stripe, and HBL Payment Gateway for secure payment and transaction workflows.\nWorked on PayTime, a fintech payroll platform for managing employee salary data throughout the fiscal year, payroll generation, salary slips, allowances, custom allowances, EOBI, PF, UPF, schemes, and attendance management.\nImplemented attendance-based salary deductions in PayTime according to configurable company rules and payroll workflows.\nBuilt the PayTime AI chatbot using n8n, Ollama, PostgreSQL, pgvector, embeddings, vector search, and Retrieval-Augmented Generation (RAG) for context-aware responses and AI-powered business workflows.\nDesigned AI agent workflows using n8n and Ollama, integrating LLM processing, data retrieval, vector search, backend services, automation, and multi-step processing.\nLed development of Compito, a marketplace connecting customers with skilled workers, including profiles, communication, service requests, offers, payment workflows, and real-time interactions.\nIntegrated Geoapify and Google Maps for location-based features, mapping, geographic search, and marketplace functionality.\nLed technical decisions, architecture, database modeling, debugging, optimization, code reviews, and production delivery across multiple projects.",
+  },
 
-experience3: {
-  role: "Junior Software Developer",
-  period: "10/2022 to 07/2023",
-  company: "Natrix Coders",
-  location: "Lahore, Pakistan",
-  details:
-    "Developed responsive and user-friendly frontend interfaces using React.js, Vue.js, HTML5, CSS3, JavaScript (ES6+), and Tailwind CSS following modern frontend development practices.\nAssisted in backend development using Node.js and Express.js by building RESTful APIs, implementing business logic, and integrating frontend applications with backend services.\nWorked with MySQL and MongoDB databases, performing CRUD operations, query optimization, schema updates, and frontend-backend data integration.\nCollaborated with senior software engineers to develop reusable components, responsive UI features, API integrations, and scalable application functionality.\nParticipated in debugging, testing, code reviews, issue resolution, and software quality assurance to improve application stability and maintainability.\nUtilized Git, GitHub, and Agile development methodologies while contributing to collaborative full-stack software engineering workflows.\nAssisted in implementing authentication, authorization, validation, secure coding practices, and REST API integrations across multiple projects.\nSupported deployment activities, environment configuration, bug fixing, and continuous improvements throughout the software development lifecycle.",
-},
+  experience2: {
+    role: "Software Engineer",
+    period: "09/2024 – 08/2025",
+    company: "MetaX Payments Ltd",
+    location: "Lahore, Pakistan",
+    details:
+      "Developed fintech, banking, and full-stack web applications using Laravel, Vue.js, Inertia.js, React.js, Node.js, Express.js, MongoDB, MySQL, and modern web technologies.\nWorked on MetaX Exchange, a fintech and banking application, implementing user registration, authentication, account workflows, and core application functionality.\nDeveloped secure backend services and RESTful APIs using Laravel, including authentication, validation, business logic, database operations, and reusable service components.\nBuilt responsive frontend interfaces using Vue.js and Inertia.js, integrating frontend workflows with Laravel backend services.\nDeveloped MERN stack applications using React.js, Node.js, Express.js, and MongoDB for various business and product requirements.\nBuilt blog platforms and administrative panels with content management, user management, configuration, settings, and admin workflows.\nDesigned and maintained MySQL and MongoDB data structures, CRUD operations, relationships, validation, and application data workflows.\nIntegrated third-party APIs, payment services, real-time functionality, and external platforms into production applications.\nImplemented reusable frontend components, authentication flows, forms, business workflows, and full-stack application features.\nParticipated in debugging, testing, performance optimization, code reviews, and production issue resolution throughout the development lifecycle.",
+  },
+
+  experience3: {
+    role: "Full Stack Developer",
+    period: "01/2024 – 08/2024",
+    company: "TP Solutions",
+    location: "Lahore, Pakistan",
+    details:
+      "Led the development of multiple full-stack web applications using Next.js, React.js, TypeScript, PostgreSQL, Prisma, and modern web technologies.\nBuilt a comprehensive School Management System supporting administrative workflows, user management, academic operations, and business processes.\nDeveloped an Amazon Labeling web application with custom workflows and interfaces for managing labeling-related operations.\nDesigned and implemented PostgreSQL database schemas and Prisma data models with a focus on data integrity, maintainability, and efficient application workflows.\nDeveloped reusable frontend components, responsive interfaces, backend APIs, authentication flows, and business logic across multiple applications.\nIntegrated frontend applications with backend services and implemented end-to-end features across UI, APIs, databases, and business workflows.\nHandled debugging, performance optimization, technical problem-solving, and production delivery throughout the software development lifecycle.\nCollaborated with teams and stakeholders to translate business requirements into scalable and maintainable software solutions.",
+  },
+
+  experience4: {
+    role: "Full Stack Developer",
+    period: "05/2023 – 12/2023",
+    company: "Natrix Coders",
+    location: "Lahore, Pakistan",
+    details:
+      "Developed and maintained responsive web applications and business websites based on client and project requirements.\nImplemented frontend interfaces, reusable components, responsive layouts, forms, interactive functionality, and third-party integrations.\nWorked across application development, debugging, maintenance, and optimization to deliver reliable web solutions.\nCollaborated with senior developers and team members to translate business requirements into practical and maintainable software features.\nWorked on frontend-backend integration, API consumption, application workflows, and database-driven functionality across multiple projects.\nParticipated in debugging, testing, issue resolution, performance improvements, and ongoing application maintenance.\nUsed Git-based development workflows and contributed to collaborative development and production updates.\nSupported the software development lifecycle from feature implementation and debugging through deployment and maintenance.",
+  },
+
     education: {
       degree: "Bachelor of Science: Computer Science",
-      date: "01/2025",
+      // date: "01/2025",
       school: "University Of The Punjab",
       location: "Lahore, Pakistan",
     },
@@ -76,21 +131,52 @@ experience3: {
       " English (Professional Working Proficiency), Urdu (Professional Working Proficiency)",
   });
 
-  const handleInputChange = (e: any) => {
-    const { name, value } = e.target;
-    if (name.includes(".")) {
-      const [parent, child] = name.split(".");
-      setFormData((prev) => ({
-        ...prev,
-        [parent]: {
-          ...(prev[parent as keyof typeof prev] as object),
-          [child]: value,
-        },
-      }));
-    } else {
-      setFormData((prev) => ({ ...prev, [name]: value }));
-    }
-  };
+const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const { name, value } = e.target;
+
+  // Handle projects[index].field
+  const projectMatch = name.match(/^projects\.(\d+)\.(name|desc|link)$/);
+
+  if (projectMatch) {
+    const index = Number(projectMatch[1]);
+    const field = projectMatch[2] as "name" | "desc" | "link";
+
+    setFormData((prev) => ({
+      ...prev,
+      projects: prev.projects.map((project, i) =>
+        i === index
+          ? {
+              ...project,
+              [field]: value,
+            }
+          : project
+      ),
+    }));
+
+    return;
+  }
+
+  // Handle nested objects like experience1.role
+  if (name.includes(".")) {
+    const [parent, child] = name.split(".");
+
+    setFormData((prev) => ({
+      ...prev,
+      [parent]: {
+        ...(prev[parent as keyof typeof prev] as object),
+        [child]: value,
+      },
+    }));
+
+    return;
+  }
+
+  // Normal fields
+  setFormData((prev) => ({
+    ...prev,
+    [name]: value,
+  }));
+};
 
   const handlePrint = () => window.print();
 
@@ -265,7 +351,7 @@ experience3: {
 {/* Core Competencies */}
 <div className="space-y-4">
   <h3 className="text-sm font-bold border-b pb-1 text-slate-700">
-    Core Competencies
+    Skills
   </h3>
 
   <div className="grid grid-cols-1 gap-4">
@@ -316,6 +402,17 @@ experience3: {
 
     <div className="space-y-2">
       <label className="text-xs font-semibold uppercase text-slate-500">
+       Agentic AI & LLM Eng.
+      </label>
+      <Textarea
+        name="coreCompetencies.engineering"
+        value={formData.coreCompetencies.aiEngineering}
+        onChange={handleInputChange}
+      />
+    </div>
+
+    <div className="space-y-2">
+      <label className="text-xs font-semibold uppercase text-slate-500">
         Engineering
       </label>
       <Textarea
@@ -329,7 +426,7 @@ experience3: {
 </div>
 
               {/* Personal Info Title */}
-              <div className="space-y-2 border-t border-gray-300">
+              <div className="space-y-2  border-gray-300">
                 <label className="text-xs font-semibold uppercase text-slate-500">
                   Personal Information Title
                 </label>
@@ -474,6 +571,87 @@ experience3: {
                 />
               </div>
 
+               {/* work experience 4 */}
+
+               <div className="space-y-4">
+                <h3 className="text-sm font-bold border-b pb-1 text-slate-700">
+                  Work Experience 4
+                </h3>
+                <div className="grid grid-cols-2 gap-2">
+                  <Input
+                    placeholder="Role"
+                    name="experience1.role"
+                    value={formData.experience4.role}
+                    onChange={handleInputChange}
+                  />
+                  <Input
+                    placeholder="Period"
+                    name="experience1.period"
+                    value={formData.experience4.period}
+                    onChange={handleInputChange}
+                  />
+                  <Input
+                    placeholder="Company"
+                    name="experience1.company"
+                    value={formData.experience4.company}
+                    onChange={handleInputChange}
+                  />
+                  <Input
+                    placeholder="Location"
+                    name="experience1.location"
+                    value={formData.experience4.location}
+                    onChange={handleInputChange}
+                  />
+                </div>
+                <Textarea
+                  placeholder="Details"
+                  name="experience1.details"
+                  value={formData.experience4.details}
+                  onChange={handleInputChange}
+                  className="min-h-[100px]"
+                />
+              </div>
+
+              {/* Projects */}
+<div className="space-y-4">
+  <h3 className="text-sm font-bold border-b pb-1 text-slate-700">
+    Projects
+  </h3>
+
+  {formData.projects.map((project, index) => (
+    <div
+      key={index}
+      className="space-y-3 rounded-lg border border-slate-200 p-4"
+    >
+      <h4 className="text-xs font-bold uppercase text-slate-500">
+        Project {index + 1}
+      </h4>
+
+      <Input
+        placeholder="Project Name"
+        name={`projects.${index}.name`}
+        value={project.name}
+        onChange={handleInputChange}
+      />
+
+      <Textarea
+        placeholder="Project Description"
+        name={`projects.${index}.desc`}
+        value={project.desc}
+        onChange={handleInputChange}
+        className="min-h-[100px]"
+      />
+
+      <Input
+        placeholder="Project Link"
+        name={`projects.${index}.link`}
+        value={project.link}
+        onChange={handleInputChange}
+      />
+    </div>
+  ))}
+</div>
+
               {/* Skills */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="space-y-2">
@@ -508,13 +686,13 @@ experience3: {
         >
           <div className="font-sans text-[11px] leading-snug text-black">
             {/* Header */}
-            <div className="text-center mb-4 ">
+            <div className=" mb-4 ">
               <h1 className="text-2xl font-bold uppercase tracking-wider ">
                 {formData.fullName}
               </h1>
               
-                    <div className="w-full flex items-center justify-center font-semibold"> <p className="mb-2 text-[13px] w-[80%]">{formData.personalInfoTitle}</p></div>
-              <div className="border-t border-b border-gray-400 py-1 mb-1 text-[10px]">
+                    {/* <div className="w-full flex items-center justify-center font-semibold"> <p className="mb-2 text-[13px] w-[80%]">{formData.personalInfoTitle}</p></div> */}
+              <div className=" border-b border-gray-400 py-1 mb-1 text-[10px]">
                 <p>
                   {formData.location} | {formData.phone} | {formData.email} |{" "}
                    <strong>WWW:</strong> {formData.linkedIn}
@@ -528,8 +706,8 @@ experience3: {
 
             {/* Personal Summary */}
             <div className="mb-4">
-              <h2 className="text-center font-bold mb-1 border-b border-gray-400 pb-1 text-[12px] uppercase">
-                Personal Summary
+              <h2 className=" font-bold mb-1 border-b border-gray-400 pb-1 text-[12px] uppercase">
+                 Summary
               </h2>
               <p className="text-justify whitespace-pre-line">
                 {formData.summary}
@@ -541,56 +719,13 @@ experience3: {
             {/* Core Competencies */}
 <div className="space-y-4">
 
-{/* Core Competencies - ATS Friendly */}
-<div className="mb-4">
-  <h2 className="text-center font-bold mb-2 border-t border-b border-gray-400 py-1 text-[12px] uppercase">
-    Core Competencies
-  </h2>
-  
-  <div className="space-y-1">
-    <div className="flex gap-2">
-      <label className="text-md font-bold">
-        Frontend:
-      </label>
-      <p className="text-md">{formData.coreCompetencies.frontend}</p>
-    </div>
-    
-    <div className="flex gap-2">
-      <label className="text-md font-bold">
-        Backend:
-      </label>
-      <p className="text-md">{formData.coreCompetencies.backend}</p>
-    </div>
-    
-    <div className="flex gap-2">
-      <label className="text-md font-bold">
-        Database:
-      </label>
-      <p className="text-md">{formData.coreCompetencies.database}</p>
-    </div>
-    
-    <div className="flex gap-2">
-      <label className="text-md font-bold">
-        Cloud & DevOps:
-      </label>
-      <p className="text-md">{formData.coreCompetencies.cloudDevops}</p>
-    </div>
-    
-    <div className="flex gap-2">
-      <label className="text-md font-bold">
-        Engineering:
-      </label>
-      <p className="text-md">{formData.coreCompetencies.engineering}</p>
-    </div>
-  </div>
-</div>
-</div>
+
 
             
 
             {/* Work Experience */}
             <div className="mb-4">
-              <h2 className="text-center font-bold mb-2 border-t border-b border-gray-400 py-1 text-[12px] uppercase">
+              <h2 className=" font-bold mb-2  border-b border-gray-400 py-1 text-[12px] uppercase">
                 Work Experience
               </h2>
 
@@ -634,16 +769,54 @@ experience3: {
                   {renderBulletList(formData.experience3.details)}
                 </ul>
               </div>
+                <div className="mb-3">
+                <div className="flex justify-between font-bold">
+                  <span>{formData.experience4.role}</span>
+                  <span>{formData.experience4.period}</span>
+                </div>
+                <div className="flex justify-between font-bold mb-1">
+                  <span>{formData.experience4.company}</span>
+                  <span>{formData.experience4.location}</span>
+                </div>
+                <ul className="list-disc pl-5 space-y-0.5 text-justify">
+                  {renderBulletList(formData.experience4.details)}
+                </ul>
+              </div>
             </div>
+{/* Projects */}
+<div className="mb-4">
+  <h2 className="font-bold mb-2 border-b border-gray-400 py-1 text-[12px] uppercase">
+    Projects
+  </h2>
 
+  <div className="space-y-3">
+    {formData.projects.map((project, index) => (
+      <div key={index}>
+        <div className="flex justify-between font-bold">
+          <span>{project.name}</span>
+
+          {project.link && (
+            <span className="font-normal text-[9px]">
+              {project.link}
+            </span>
+          )}
+        </div>
+
+        <p className="text-justify">
+          {project.desc}
+        </p>
+      </div>
+    ))}
+  </div>
+</div>
             {/* Education and Training */}
             <div className="mb-4">
-              <h2 className="text-center font-bold mb-2 border-t border-b border-gray-400 py-1 text-[12px] uppercase">
-                Education and Training
+              <h2 className=" font-bold mb-2  border-b border-gray-400 py-1 text-[12px] uppercase">
+                Education
               </h2>
               <div className="flex justify-between font-bold">
                 <span>{formData.education.degree}</span>
-                <span>{formData.education.date}</span>
+                {/* <span>{formData.education.date}</span> */}
               </div>
               <div className="flex justify-between font-bold">
                 <span className="font-normal italic">
@@ -653,11 +826,60 @@ experience3: {
               </div>
             </div>
 
-           
+           {/* Core Competencies - ATS Friendly */}
+<div className="mb-4">
+  <h2 className=" font-bold mb-2 border-b border-gray-400 py-1 text-[12px] uppercase">
+    Skills
+  </h2>
+  
+  <div className="space-y-1">
+    <div className="flex gap-2">
+      <label className="text-md font-bold">
+        Frontend:
+      </label>
+      <p className="text-md">{formData.coreCompetencies.frontend}</p>
+    </div>
+    
+    <div className="flex gap-2">
+      <label className="text-md font-bold">
+        Backend:
+      </label>
+      <p className="text-md">{formData.coreCompetencies.backend}</p>
+    </div>
+    
+    <div className="flex gap-2">
+      <label className="text-md font-bold">
+        Database:
+      </label>
+      <p className="text-md">{formData.coreCompetencies.database}</p>
+    </div>
+    
+    <div className="flex gap-2">
+      <label className="text-md font-bold">
+        Cloud & DevOps:
+      </label>
+      <p className="text-md">{formData.coreCompetencies.cloudDevops}</p>
+    </div>
+    
+     <div className="flex gap-2">
+      <label className="text-md font-bold">
+         Agentic AI & LLM Eng.:
+      </label>
+      <p className="text-md">{formData.coreCompetencies.aiEngineering}</p>
+    </div>
+    <div className="flex gap-2">
+      <label className="text-md font-bold">
+        Engineering:
+      </label>
+      <p className="text-md">{formData.coreCompetencies.engineering}</p>
+    </div>
+  </div>
+</div>
+</div>
 
             {/* Languages */}
             <div>
-              <h2 className="text-center font-bold mb-2 border-t border-b border-gray-400 py-1 text-[12px] uppercase">
+              <h2 className=" font-bold mb-2  border-b border-gray-400 py-1 text-[12px] uppercase">
                 Languages
               </h2>
               <ul className="list-disc pl-5 space-y-0.5">

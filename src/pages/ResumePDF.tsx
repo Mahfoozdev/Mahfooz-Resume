@@ -48,21 +48,22 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 24,
-    textAlign: "center",
+    
     textTransform: "uppercase",
     fontWeight: "bold",
     letterSpacing: 1,
     marginBottom: 2,
   },
   contactBorder: {
-    borderTopWidth: 1,
+    
     borderBottomWidth: 1,
+    marginBottom:20,
     borderColor: "#9ca3af",
     paddingVertical: 4,
   },
   contactText: {
     fontSize: 10,
-    textAlign: "center",
+    
     lineHeight: 1.4,
   },
   bold: {
@@ -72,10 +73,10 @@ const styles = StyleSheet.create({
   // Section styles
   sectionTitle: {
     fontSize: 12,
-    textAlign: "center",
+    
     fontWeight: "bold",
     textTransform: "uppercase",
-    borderTopWidth: 1,
+    
     borderBottomWidth: 1,
     borderColor: "#9ca3af",
     paddingVertical: 4,
@@ -84,7 +85,7 @@ const styles = StyleSheet.create({
   },
   sectionTitleSimple: {
     fontSize: 12,
-    textAlign: "center",
+    
     fontWeight: "bold",
     textTransform: "uppercase",
     borderBottomWidth: 1,
@@ -271,9 +272,10 @@ const ResumePDF: React.FC<ResumePDFProps> = ({
           <Text style={[styles.title, { fontFamily: getFontFamily() }]}>
             {formData.fullName}
           </Text>
-<View style={{width:"100%",display:"flex",justifyContent:"center",alignItems:"center"}}>  <Text style={{width:"80%",fontSize:"10px",marginBottom:10,textAlign:"center",fontWeight:"600"}}>
+{/* <View style={{width:"100%",display:"flex",justifyContent:"center",alignItems:"center"}}>  <Text style={{width:"80%",fontSize:"10px",marginBottom:10,textAlign:"center",fontWeight:"600"}}>
             {formData.personalInfoTitle}
-          </Text></View>
+          </Text>
+          </View> */}
         
          <View style={styles.contactBorder}>
   <Text style={[styles.contactText, { fontFamily: getFontFamily() }]}>
@@ -345,7 +347,6 @@ const ResumePDF: React.FC<ResumePDFProps> = ({
             style={[
               {
                 fontSize: 12,
-                textAlign: "center",
                 fontWeight: "bold",
                 textTransform: "uppercase",
                 borderBottomWidth: 1,
@@ -357,7 +358,7 @@ const ResumePDF: React.FC<ResumePDFProps> = ({
               { fontFamily: getFontFamily() },
             ]}
           >
-            Personal Summary
+          Summary
           </Text>
           <Text style={[styles.textJustify, { fontFamily: getFontFamily() }]}>
             {formData.summary}
@@ -417,53 +418,7 @@ const ResumePDF: React.FC<ResumePDFProps> = ({
           </View>
         </View> */}
 
-        <View style={{ marginBottom: 10 }}>
-  <Text
-    style={[
-      styles.sectionTitle,
-      { fontFamily: getFontFamily() }
-    ]}
-  >
-    CORE COMPETENCIES
-  </Text>
-
-  <View>
-  <Text style={[styles.contactText, { fontFamily: getFontFamily(), textAlign: "left" }]}>
-    <Text style={[styles.bold, { fontFamily: getFontFamily() }]}>
-      Frontend:
-    </Text>{" "}
-    {formData.coreCompetencies.frontend}
-  </Text>
-
-  <Text style={[styles.contactText, { fontFamily: getFontFamily(), textAlign: "left" }]}>
-    <Text style={[styles.bold, { fontFamily: getFontFamily() }]}>
-      Backend:
-    </Text>{" "}
-    {formData.coreCompetencies.backend}
-  </Text>
-
-  <Text style={[styles.contactText, { fontFamily: getFontFamily(), textAlign: "left" }]}>
-    <Text style={[styles.bold, { fontFamily: getFontFamily() }]}>
-      Database:
-    </Text>{" "}
-    {formData.coreCompetencies.database}
-  </Text>
-
-  <Text style={[styles.contactText, { fontFamily: getFontFamily(), textAlign: "left" }]}>
-    <Text style={[styles.bold, { fontFamily: getFontFamily() }]}>
-      Cloud & DevOps:
-    </Text>{" "}
-    {formData.coreCompetencies.cloudDevops}
-  </Text>
-
-  <Text style={[styles.contactText, { fontFamily: getFontFamily(), textAlign: "left" }]}>
-    <Text style={[styles.bold, { fontFamily: getFontFamily() }]}>
-      Engineering:
-    </Text>{" "}
-    {formData.coreCompetencies.engineering}
-  </Text>
-</View>
-</View>
+      
 
         {/* Work Experience */}
         <View>
@@ -556,7 +511,7 @@ const ResumePDF: React.FC<ResumePDFProps> = ({
               {renderBulletPoints(formData.experience2.details)}
             </View>
           </View>
-          {/* Experience 3 */}
+          {/* Experience 4 */}
           <View style={styles.experienceItem}>
             <View style={styles.experienceHeader}>
               <Text
@@ -598,12 +553,143 @@ const ResumePDF: React.FC<ResumePDFProps> = ({
               {renderBulletPoints(formData.experience3.details)}
             </View>
           </View>
+
+           {/* Experience 3 */}
+          <View style={styles.experienceItem}>
+            <View style={styles.experienceHeader}>
+              <Text
+                style={[
+                  styles.experienceTitle,
+                  { fontFamily: getFontFamily() },
+                ]}
+              >
+                {formData.experience4.role}
+              </Text>
+              <Text
+                style={[
+                  styles.experiencePeriod,
+                  { fontFamily: getFontFamily() },
+                ]}
+              >
+                {formData.experience3.period}
+              </Text>
+            </View>
+            <View style={styles.experienceSubheader}>
+              <Text
+                style={[
+                  styles.experienceCompany,
+                  { fontFamily: getFontFamily() },
+                ]}
+              >
+                {formData.experience4.company}
+              </Text>
+              <Text
+                style={[
+                  styles.experienceLocation,
+                  { fontFamily: getFontFamily() },
+                ]}
+              >
+                {formData.experience4.location}
+              </Text>
+            </View>
+            <View style={styles.experienceDetails}>
+              {renderBulletPoints(formData.experience4.details)}
+            </View>
+          </View>
         </View>
+
+        {/* Projects */}
+{formData.projects?.length > 0 && (
+  <View>
+    <Text
+      style={[
+        styles.sectionTitle,
+        { fontFamily: getFontFamily() },
+      ]}
+    >
+      Projects
+    </Text>
+
+    {formData.projects.map(
+      (
+        project: {
+          name: string;
+          desc: string;
+          link?: string;
+        },
+        index: number
+      ) => (
+        <View
+          key={index}
+          style={{
+            marginBottom: 8,
+          }}
+        >
+          {/* Project Name + Link */}
+          <View
+            style={{
+              flexDirection: "row",
+              justifyContent: "space-between",
+              marginBottom: 2,
+            }}
+          >
+            <Text
+              style={[
+                {
+                  fontSize: 11,
+                  fontWeight: "bold",
+                  flex: 1,
+                },
+                { fontFamily: getFontFamily() },
+              ]}
+            >
+              {project.name}
+            </Text>
+
+            {project.link && (
+              <Link
+                src={
+                  project.link.startsWith("http")
+                    ? project.link
+                    : `https://${project.link}`
+                }
+                style={[
+                  {
+                    fontSize: 8,
+                    color: "#000000",
+                    textDecoration: "underline",
+                    marginLeft: 10,
+                  },
+                  { fontFamily: getFontFamily() },
+                ]}
+              >
+                {project.link.replace(/^https?:\/\//, "")}
+              </Link>
+            )}
+          </View>
+
+          {/* Project Description */}
+          <Text
+            style={[
+              styles.textJustify,
+              {
+                marginBottom: 2,
+              },
+              { fontFamily: getFontFamily() },
+            ]}
+          >
+            {project.desc}
+          </Text>
+        </View>
+      )
+    )}
+  </View>
+)}
 
         {/* Education */}
         <View>
           <Text style={[styles.sectionTitle, { fontFamily: getFontFamily() }]}>
-            Education and Training
+            Education
           </Text>
           <View style={styles.educationHeader}>
             <Text
@@ -611,11 +697,11 @@ const ResumePDF: React.FC<ResumePDFProps> = ({
             >
               {formData.education.degree}
             </Text>
-            <Text
+            {/* <Text
               style={[styles.educationDate, { fontFamily: getFontFamily() }]}
             >
               {formData.education.date}
-            </Text>
+            </Text> */}
           </View>
           <View style={styles.educationSubheader}>
             <Text
@@ -634,6 +720,58 @@ const ResumePDF: React.FC<ResumePDFProps> = ({
           </View>
         </View>
 
+  <View style={{ marginBottom: 10 }}>
+  <Text
+    style={[
+      styles.sectionTitle,
+      { fontFamily: getFontFamily() }
+    ]}
+  >
+   SKILLS 
+  </Text>
+
+  <View>
+  <Text style={[styles.contactText, { fontFamily: getFontFamily(), textAlign: "left" }]}>
+    <Text style={[styles.bold, { fontFamily: getFontFamily() }]}>
+      Frontend:
+    </Text>{" "}
+    {formData.coreCompetencies.frontend}
+  </Text>
+
+  <Text style={[styles.contactText, { fontFamily: getFontFamily(), textAlign: "left" }]}>
+    <Text style={[styles.bold, { fontFamily: getFontFamily() }]}>
+      Backend:
+    </Text>{" "}
+    {formData.coreCompetencies.backend}
+  </Text>
+
+  <Text style={[styles.contactText, { fontFamily: getFontFamily(), textAlign: "left" }]}>
+    <Text style={[styles.bold, { fontFamily: getFontFamily() }]}>
+      Database:
+    </Text>{" "}
+    {formData.coreCompetencies.database}
+  </Text>
+
+  <Text style={[styles.contactText, { fontFamily: getFontFamily(), textAlign: "left" }]}>
+    <Text style={[styles.bold, { fontFamily: getFontFamily() }]}>
+      Cloud & DevOps:
+    </Text>{" "}
+    {formData.coreCompetencies.cloudDevops}
+  </Text>
+<Text style={[styles.contactText, { fontFamily: getFontFamily(), textAlign: "left" }]}>
+    <Text style={[styles.bold, { fontFamily: getFontFamily() }]}>
+      Agentic AI & LLM Eng.:
+    </Text>{" "}
+    {formData.coreCompetencies.aiEngineering}
+  </Text>
+  <Text style={[styles.contactText, { fontFamily: getFontFamily(), textAlign: "left" }]}>
+    <Text style={[styles.bold, { fontFamily: getFontFamily() }]}>
+      Engineering:
+    </Text>{" "}
+    {formData.coreCompetencies.engineering}
+  </Text>
+</View>
+</View>
         {/* Personal Information */}
         {/* <View>
           <Text style={[styles.sectionTitle, { fontFamily: getFontFamily() }]}>
